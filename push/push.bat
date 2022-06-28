@@ -1,6 +1,3 @@
-@echo off
-echo "DOCS PUSH BAT"
-
 echo "1. Move to working directory" 
 C:
 cd C:/Users/YANG/Desktop/黑/github
