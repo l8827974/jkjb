@@ -1,17 +1,17 @@
-echo "1. Move to working directory" 
-C:
+echo "1. Move to working directory"\n
+
 cd C:/Users/YANG/Desktop/黑/github
 
-echo "2. Start submitting code to the local repository"
+echo "2. Start submitting code to the local repository"\n
 git add *
  
-echo "3. Commit the changes to the local repository"
+echo "3. Commit the changes to the local repository"\n
 set now=%date% %time%
-echo "Time:" %now%
+echo "Time:" %now%\n
 git commit -m "%now%"
  
-echo "4. Push the changes to the remote git server"
+echo "4. Push the changes to the remote git server"\n
 git push
  
-echo "Batch execution complete!"
+echo "Batch execution complete!"\n
 pause
