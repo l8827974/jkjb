@@ -1,5 +1,17 @@
 #!/bin/bash
-git add .
-git commit -m 更新
-git push -u origin master
-echo '上传完成'
+if [ $# -eq 0 ]
+then 
+    pushmessage=`date +%Y-%m-%d`
+else
+    pushmessage="$*"
+fi
+
+#pushmessage=`date +%Y-%m-%d`
+
+echo ${pushmessage}
+
+#git status;
+git add -A; #添加所有的更新，.只能添加最新的更新
+git commit -m "${pushmessage}";
+git push -u origin master;
+echo "上传完成"
