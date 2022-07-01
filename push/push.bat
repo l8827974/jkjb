@@ -12,9 +12,9 @@ echo "3. Commit the changes to the local repository"
 set now=%date% %time%
 echo "Time:" %now%\n
 git commit -m "%now%"
- 
+
 echo "4. Push the changes to the remote git server"\n
-git push
+git push origin main --force
  
 echo "Batch execution complete!"\n
 pause
