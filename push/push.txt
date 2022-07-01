@@ -1,6 +1,6 @@
 echo "1. Move to working directory"\n
 
-cd C:/Users/YANG/Desktop/黑/github
+cd D:\Desktop\play\github
 
 echo "2. Start submitting code to the local repository"\n
 git add *
